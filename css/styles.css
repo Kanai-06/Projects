@@ -1,8 +1,9 @@
 body {
     background-image: url(../img/background.svg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: local;
     box-sizing: border-box;
+    height: fit-content;
 }
 
 h1 {
@@ -30,6 +31,10 @@ div {
     margin-top: 30px;
 }
 
+.recipe {
+    margin-top: 0;
+}
+
 a {
     font-size: 26px;
     -webkit-border-radius: 28px;
@@ -38,6 +43,7 @@ a {
     padding-left: 5px;
     padding-right: 5px;
     display: block;
+    text-decoration: none;
 }
 
 a:hover {
@@ -58,19 +64,24 @@ ul {
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
+    display: flex;
+    list-style: none;
+    
 }
 
 li {
-    width: 250px;
-    display: inline-block;
+    width: 13%;
     margin: 0 40px;
+    flex: auto;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .mid {
-    width: 200px;
+    width: 80%;
     -webkit-box-shadow: 0px -4px 18px 2px rgba(129,104,157,0.82); 
     box-shadow: 0px -4px 18px 2px rgba(129,104,157,0.82);
     -webkit-border-radius: 28px;
     border-radius: 28px;
-    margin: 2px solid #FFD0EC;
+    margin-top: 20px;
 }
