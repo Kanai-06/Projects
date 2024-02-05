@@ -61,8 +61,12 @@ a:hover {
     margin-left: auto;
 }
 
+li img {
+    width: 200px;
+}
+
 div img {
-    width: 30px;
+    width: 70px;
 }
 
 div * {
