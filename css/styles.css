@@ -1,7 +1,7 @@
 body {
     background-image: url(../img/background.svg);
     background-repeat: no-repeat;
-    background-attachment: local;
+    background-attachment: fixed;
     box-sizing: border-box;
     max-height: max-content;
 }
